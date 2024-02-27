@@ -10,7 +10,7 @@ const Home = () => {
                     <p className='font-semibold text-gray-600'>Jr. MERN Stack Developer</p>
                     <p className='text-gray-700 py-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nostrum cupiditate quia officiis aut id. Nostrum quas minima, corrupti ea eligendi praesentium officia, optio dolores quam <Link><span className='text-green-600 hover:underline'>online project</span></Link> quis nesciunt sit.</p>
                     <div className='flex gap-3'>
-                        <button className='rounded-md flex items-center gap-2 px-3 py-2 bg-green-500 text-white font-semibold uppercase'><FaEye className='animate-bounce' /> View Portfolio</button>
+                        <button className='rounded-md flex items-center gap-2 px-3 py-2 bg-green-500 text-white font-semibold uppercase'><FaEye className='animate-bounce' /> Get Resume</button>
                         <button className='rounded-md flex items-center gap-2 px-3 py-2 bg-gray-500 text-white font-semibold uppercase'><FaGithub className='animate-bounce' /> View Github</button>
                     </div>
                 </div>

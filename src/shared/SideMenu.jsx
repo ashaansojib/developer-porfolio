@@ -4,16 +4,16 @@ import { NavLink } from 'react-router-dom';
 
 const SideMenu = () => {
     return (
-        <div className='uppercase md:space-y-3'>
+        <div className='uppercase md:space-y-3 border-b py-6'>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/"><FaHouse /> Home</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaLaptop /> Projects</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaBookBookmark /> Resume</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaComment /> about me</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaTelegram /> contact me</NavLink>
-            <div className='download-btn'>
+            {/* <div className='download-btn'>
                 <FaDownload />
                 <button className='uppercase'>Download Resume</button>
-            </div>
+            </div> */}
 
         </div>
     );
