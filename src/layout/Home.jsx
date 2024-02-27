@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaCheckDouble, FaEye, FaGithub } from 'react-icons/fa6'
+import { FaCheckDouble, FaCss3, FaEye, FaGithub, FaJs, FaMusic, FaNode, FaReact } from 'react-icons/fa6'
 const Home = () => {
     return (
         <div className='px-4 py-2'>
@@ -22,6 +22,55 @@ const Home = () => {
             </div>
             <h2 className='text-xl font-semibold flex gap-2 items-center'><FaCheckDouble className='text-green-500' /> What I do...</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum assumenda, aliquam perferendis corporis odio voluptate obcaecati inventore, molestiae consequatur iste quidem omnis! Tempora perspiciatis unde minus est, laudantium in sint?</p>
+            <div className='grid md:grid-cols-3 justify-between gap-4 grid-cols-1 md:py-6'>
+                <div>
+                    <FaJs className='text-2xl bg-green-500 text-white' />
+                    <h3 className='font-semibold text-gray-600 pb-1'> Vanilla JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+                <div>
+                    <div className='flex items-center gap-2'>
+                        <FaReact className='text-2xl bg-green-500 text-white' />
+                    </div>
+                    <h3 className='font-semibold text-gray-600 pb-1'>ReactJS, NextJS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+                <div>
+                    <div className='flex items-center gap-2'>
+                        <FaNode className='text-2xl bg-green-500 text-white' />
+                    </div>
+                    <h3 className='font-semibold text-gray-600 pb-1'>NodeJS, ExpressJS, MongoDB</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+                <div>
+                    <div className='flex items-center gap-2'>
+                        <FaCss3 className='text-2xl bg-green-500 text-white' />
+                    </div>
+                    <h3 className='font-semibold text-gray-600 pb-1'>Tailwindcss, Bootstrap, CSS3, HTM5</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+                <div>
+                    <div className='flex items-center gap-2'>
+                        <FaMusic className='text-2xl bg-green-500 text-white' />
+                    </div>
+                    <h3 className='font-semibold text-gray-600 pb-1'>Material UI, DaisyUI, NextUI</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+                <div>
+                    <div className='flex items-center gap-2'>
+                        <FaMusic className='text-2xl bg-green-500 text-white' />
+                    </div>
+                    <h3 className='font-semibold text-gray-600 pb-1'>Vercel, AWS, Rander</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+                <div>
+                    <div className='flex items-center gap-2'>
+                        <FaMusic className='text-2xl bg-green-500 text-white' />
+                    </div>
+                    <h3 className='font-semibold text-gray-600 pb-1'>Netlify, Github</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
+                </div>
+            </div>
         </div>
     );
 };

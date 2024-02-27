@@ -1,23 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-  }
-.my-container{
+}
+
+.my-container {
     @apply max-w-screen-xl mx-auto
 }
-.active{
+
+.active {
     @apply font-bold text-green-500 flex items-center gap-1
 }
-.default{
+
+.default {
     @apply font-bold flex items-center gap-1 text-gray-600
 }
-.icon-link{
+
+.icon-link {
     @apply bg-green-500 text-white text-3xl p-1 rounded-md
 }
-.download-btn{
+
+.download-btn {
     @apply flex gap-2 justify-center items-center px-4 py-2 bg-gradient-to-tr to-[#0d1b41] from-[#426cdf] font-semibold text-white
 }
