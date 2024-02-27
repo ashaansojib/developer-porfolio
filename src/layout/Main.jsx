@@ -6,7 +6,9 @@ const Main = () => {
     return (
         <div className='my-container md:my-2'>
             <div className='grid grid-cols-4 justify-between gap-3'>
-                <Sidebar />
+                <div className='sticky z-10 top-0'>
+                    <Sidebar />
+                </div>
                 <div className='col-span-3 border'>
                     <Outlet />
                 </div>
