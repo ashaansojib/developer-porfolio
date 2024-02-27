@@ -5,3 +5,15 @@
 .my-container{
     @apply max-w-screen-xl mx-auto
 }
+.active{
+    @apply font-bold text-green-500 flex items-center gap-1
+}
+.default{
+    @apply font-bold flex items-center gap-1 text-gray-600
+}
+.icon-link{
+    @apply bg-green-500 text-white text-3xl p-1 rounded-md
+}
+.download-btn{
+    @apply flex gap-2 justify-center items-center px-4 py-2 bg-gradient-to-tr to-[#0d1b41] from-[#426cdf] font-semibold text-white
+}
