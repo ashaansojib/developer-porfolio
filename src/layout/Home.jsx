@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaCheckDouble, FaCss3, FaEye, FaGithub, FaJs, FaMusic, FaNode, FaReact } from 'react-icons/fa6'
+import { FaCheckDouble, FaCss3, FaEye, FaGear, FaGithub, FaJs, FaMusic, FaNode, FaReact, FaToolbox } from 'react-icons/fa6'
 const Home = () => {
     return (
         <div className='px-4 py-2'>
@@ -22,55 +22,21 @@ const Home = () => {
             </div>
             <h2 className='text-xl font-semibold flex gap-2 items-center'><FaCheckDouble className='text-green-500' /> What I do...</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum assumenda, aliquam perferendis corporis odio voluptate obcaecati inventore, molestiae consequatur iste quidem omnis! Tempora perspiciatis unde minus est, laudantium in sint?</p>
-            <div className='grid md:grid-cols-3 justify-between gap-4 grid-cols-1 md:py-6'>
-                <div>
-                    <FaJs className='text-2xl bg-green-500 text-white' />
-                    <h3 className='font-semibold text-gray-600 pb-1'> Vanilla JavaScript</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
-                <div>
-                    <div className='flex items-center gap-2'>
-                        <FaReact className='text-2xl bg-green-500 text-white' />
-                    </div>
-                    <h3 className='font-semibold text-gray-600 pb-1'>ReactJS, NextJS</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
-                <div>
-                    <div className='flex items-center gap-2'>
-                        <FaNode className='text-2xl bg-green-500 text-white' />
-                    </div>
-                    <h3 className='font-semibold text-gray-600 pb-1'>NodeJS, ExpressJS, MongoDB</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
-                <div>
-                    <div className='flex items-center gap-2'>
-                        <FaCss3 className='text-2xl bg-green-500 text-white' />
-                    </div>
-                    <h3 className='font-semibold text-gray-600 pb-1'>Tailwindcss, Bootstrap, CSS3, HTM5</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
-                <div>
-                    <div className='flex items-center gap-2'>
-                        <FaMusic className='text-2xl bg-green-500 text-white' />
-                    </div>
-                    <h3 className='font-semibold text-gray-600 pb-1'>Material UI, DaisyUI, NextUI</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
-                <div>
-                    <div className='flex items-center gap-2'>
-                        <FaMusic className='text-2xl bg-green-500 text-white' />
-                    </div>
-                    <h3 className='font-semibold text-gray-600 pb-1'>Vercel, AWS, Rander</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
-                <div>
-                    <div className='flex items-center gap-2'>
-                        <FaMusic className='text-2xl bg-green-500 text-white' />
-                    </div>
-                    <h3 className='font-semibold text-gray-600 pb-1'>Netlify, Github</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius deserunt animi aut perferendis distinctio nihil quis in dolor laudantium! Vitae in minus magnam,modi!</p>
-                </div>
+            <h4 className='font-semibold py-2 flex items-center gap-2'><FaGear className='animate-spin' /> Experties In..</h4>
+            <div className='grid lg:grid-cols-7 md:grid-cols-5 grid-cols-2 justify-between items-center gap-3'>
+                <button className='px-4 py-2 bg-slate-500 font-semibold text-white rounded-md'>Vanilla JS</button>
+                <button className='px-4 py-2 bg-[#1210a0fb] font-semibold text-white rounded-md'>JS ES6</button>
+                <button className='px-4 py-2 bg-[#4286ca] font-semibold text-white rounded-md'>React JS</button>
+                <button className='px-4 py-2 bg-[#1d456d] font-semibold text-white rounded-md'>Node JS</button>
+                <button className='px-4 py-2 bg-[#217ad3] font-semibold text-white rounded-md'>Express JS</button>
+                <button className='px-4 py-2 bg-[#134db9] font-semibold text-white rounded-md'>MongoDB</button>
+                <button className='px-4 py-2 bg-[#134db9] font-semibold text-white rounded-md'>TailwindCss</button>
+                <button className='px-4 py-2 bg-[#134db9] font-semibold text-white rounded-md'>Bootstrap</button>
+                <button className='px-4 py-2 bg-[#1ae094] font-semibold text-white rounded-md'>HTML5</button>
+                <button className='px-4 py-2 bg-[#1a80e0] font-semibold text-white rounded-md'>CSS3</button>
+                <button className='px-4 py-2 bg-[#1ae05c] font-semibold text-white rounded-md'>SASS</button>
             </div>
+            <h4 className='font-semibold py-2 flex items-center gap-2'><FaToolbox className='animate-bounce' /> Expert Tools..</h4>
         </div>
     );
 };
