@@ -6,7 +6,7 @@ const Project = ({ pro }) => {
     const { title, ss, link, } = pro;
     return (
         <div className='pro-card'>
-            <img src={ss} className='w-1/2 h-36' alt="" />
+            <img src={ss} className='w-1/2 h-36 rounded-md' alt="" />
             <div>
                 <h2 className='text-xl font-semibold italic pb-2'>{title}</h2>
                 <div className='grid grid-cols-2 gap-3 justify-between'>
