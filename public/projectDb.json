@@ -1,0 +1,65 @@
+[
+    {
+        "_id": "65df27776413a34e07b5a0e0",
+        "title": "O-GSMService",
+        "link": "https://o-gsmservice.netlify.app/",
+        "ss": "/o-gsm.PNG",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "",
+        "frontend": ""
+    },
+    {
+        "_id": "65df2777ab5f7f45127c0b4d",
+        "title": "EdTech - Learning English",
+        "link": "https://learning-assigment-12.web.app/",
+        "ss": "https://i.ibb.co/HNs8CTM/Screenshot-from-2023-06-30-01-18-48.png",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-ashaansojib",
+        "frontend": "https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-ashaansojib"
+    },
+    {
+        "_id": "65df2777a418c638493b5c78",
+        "title": "Chef - Grilled Corn",
+        "link": "https://server-assigment.web.app/",
+        "ss": "https://i.ibb.co/hMBCmLH/Screenshot-from-2023-06-30-01-23-12.png",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "https://github.com/programming-hero-web-course-4/b7a10-chef-recipe-hunter-server-side-ashaansojib",
+        "frontend": "https://github.com/ashaansojib/grild-corn-a10"
+    },
+    {
+        "_id": "65df2777676b6d757cbf6d78",
+        "title": "The - Toy Cars Market",
+        "link": "https://toy-shop-c3c3c.web.app/",
+        "ss": "https://i.ibb.co/qkRQshp/Screenshot-from-2023-06-30-01-12-25.png",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "https://github.com/programming-hero-web-course-4/b7a11-toy-marketplace-server-side-ashaansojib",
+        "frontend": "https://github.com/ashaansojib/toy-car-a11"
+    },
+    {
+        "_id": "65df2777145948794125eb9c",
+        "title": "Job Hunting",
+        "link": "https://tourmaline-raindrop-6c4d11.netlify.app/",
+        "ss": "https://i.ibb.co/0YrSKzG/Screenshot-from-2023-07-01-18-08-14.png",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "https://github.com/ashaansojib/a-9.git",
+        "frontend": "https://github.com/ashaansojib/a-9.git"
+    },
+    {
+        "_id": "65df27778cf35d11e06b855e",
+        "title": "Reading Your Fav Books",
+        "link": "https://classy-kheer-9f9e0b.netlify.app/",
+        "ss": "https://i.ibb.co/CKJ4451/Screenshot-from-2023-07-01-18-15-40.png",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "",
+        "frontend": "https://ashaduzzaman-sojib.netlify.app/"
+    },
+    {
+        "_id": "65df27776da48cf37fe6291e",
+        "title": "AI Universe Hub",
+        "link": "https://teal-biscuit-792e6a.netlify.app/",
+        "ss": "https://ashaduzzaman-sojib.netlify.app/a-6.png",
+        "tools": "Reactjs, Nodejs, Expressjs, Mongodb, TailwindCss, DaisyUI",
+        "backend": "",
+        "frontend": ""
+    }
+]

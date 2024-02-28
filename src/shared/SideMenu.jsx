@@ -6,15 +6,10 @@ const SideMenu = () => {
     return (
         <div className='uppercase md:space-y-3 border-b py-6'>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/"><FaHouse /> Home</NavLink>
-            <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaLaptop /> Projects</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/projects"><FaLaptop /> Projects</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/resume"><FaBookBookmark /> Resume</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaComment /> about me</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaTelegram /> contact me</NavLink>
-            {/* <div className='download-btn'>
-                <FaDownload />
-                <button className='uppercase'>Download Resume</button>
-            </div> */}
-
         </div>
     );
 };

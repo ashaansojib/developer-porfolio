@@ -7,7 +7,10 @@ body {
     font-weight: 400;
     font-style: normal;
 }
-
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
 .my-container {
     @apply max-w-screen-xl mx-auto
 }
@@ -35,4 +38,7 @@ body {
 .sticky-sidebar.sticky-bottom {
     position: absolute;
     bottom: 0;
+}
+.pro-card{
+    @apply hover:rotate-1 transition-all delay-75 bg-gradient-to-r to-[#084d92] from-[#a37edd] text-white p-3 flex gap-4 rounded-lg
 }

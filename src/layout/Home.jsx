@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaCheckDouble, FaCss3, FaEye, FaGear, FaGithub, FaJs, FaMusic, FaNode, FaReact, FaToolbox } from 'react-icons/fa6'
+import { FaCheckDouble, FaEye, FaGear, FaGithub, FaToolbox } from 'react-icons/fa6'
 const Home = () => {
     return (
         <div className='px-4 py-2'>
@@ -27,16 +27,30 @@ const Home = () => {
                 <button className='px-4 py-2 bg-slate-500 font-semibold text-white rounded-md'>Vanilla JS</button>
                 <button className='px-4 py-2 bg-[#1210a0fb] font-semibold text-white rounded-md'>JS ES6</button>
                 <button className='px-4 py-2 bg-[#4286ca] font-semibold text-white rounded-md'>React JS</button>
+                <button className='px-4 py-2 bg-[#4286ca] font-semibold text-white rounded-md'>Router</button>
+                <button className='px-4 py-2 bg-[#1779db] font-semibold text-white rounded-md'>TypeScript</button>
                 <button className='px-4 py-2 bg-[#1d456d] font-semibold text-white rounded-md'>Node JS</button>
                 <button className='px-4 py-2 bg-[#217ad3] font-semibold text-white rounded-md'>Express JS</button>
                 <button className='px-4 py-2 bg-[#134db9] font-semibold text-white rounded-md'>MongoDB</button>
+                <button className='px-4 py-2 bg-[#afb8c9] font-semibold text-white rounded-md'>MySQL</button>
                 <button className='px-4 py-2 bg-[#134db9] font-semibold text-white rounded-md'>TailwindCss</button>
                 <button className='px-4 py-2 bg-[#134db9] font-semibold text-white rounded-md'>Bootstrap</button>
                 <button className='px-4 py-2 bg-[#1ae094] font-semibold text-white rounded-md'>HTML5</button>
                 <button className='px-4 py-2 bg-[#1a80e0] font-semibold text-white rounded-md'>CSS3</button>
                 <button className='px-4 py-2 bg-[#1ae05c] font-semibold text-white rounded-md'>SASS</button>
             </div>
-            <h4 className='font-semibold py-2 flex items-center gap-2'><FaToolbox className='animate-bounce' /> Expert Tools..</h4>
+            <h4 className='font-semibold pb-2 pt-4 flex items-center gap-2'><FaToolbox className='animate-bounce' /> Expert Tools..</h4>
+            <div className='grid lg:grid-cols-7 md:grid-cols-5 grid-cols-2 justify-between items-center gap-3'>
+                <button className='px-4 py-2 bg-[#d83988] font-semibold text-white rounded-md'>Github</button>
+                <button className='px-4 py-2 bg-[#d839bd] font-semibold text-white rounded-md'>Redux</button>
+                <button className='px-4 py-2 bg-[#4286ca] font-semibold text-white rounded-md'>JWT</button>
+                <button className='px-4 py-2 bg-[#382535] font-semibold text-white rounded-md'>Firebase</button>
+                <button className='px-4 py-2 bg-[#881577] font-semibold text-white rounded-md'>Axios</button>
+                <button className='px-4 py-2 bg-[#1d456d] font-semibold text-white rounded-md'>Vercel</button>
+                <button className='px-4 py-2 bg-[#24c783] font-semibold text-white rounded-md'>VSCode</button>
+                <button className='px-4 py-2 bg-[#645] font-semibold text-white rounded-md'>Canva</button>
+                <button className='px-4 py-2 bg-[#1210a0fb] font-semibold text-white rounded-md'>Figma</button>
+            </div>
         </div>
     );
 };
