@@ -4,8 +4,8 @@ import { FaCheckDouble, FaEye, FaGear, FaGithub, FaToolbox } from 'react-icons/f
 const Home = () => {
     return (
         <div className='px-4 py-2'>
-            <div className='grid grid-cols-3 justify-between gap-4'>
-                <div className='col-span-2'>
+            <div className='grid md:grid-cols-3 grid-cols-1 justify-between gap-4'>
+                <div className='md:col-span-2'>
                     <h1 className='text-2xl font-bold'>Ashaduzzaman Sojib</h1>
                     <p className='font-semibold text-gray-600'>Jr. MERN Stack Developer</p>
                     <p className='text-gray-700 py-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nostrum cupiditate quia officiis aut id. Nostrum quas minima, corrupti ea eligendi praesentium officia, optio dolores quam <Link><span className='text-green-600 hover:underline'>online project</span></Link> quis nesciunt sit.</p>
@@ -14,7 +14,7 @@ const Home = () => {
                         <button className='rounded-md flex items-center gap-2 px-3 py-2 bg-gray-500 text-white font-semibold uppercase'><FaGithub className='animate-bounce' /> View Github</button>
                     </div>
                 </div>
-                <div className="avatar justify-end">
+                <div className="avatar md:justify-end justify-center">
                     <div className="rounded-md h-60">
                         <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
                     </div>
