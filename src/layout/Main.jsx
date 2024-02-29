@@ -13,7 +13,7 @@ const Main = () => {
                 }
             </div>
             <div className='grid md:grid-cols-4 grid-cols-1 justify-between gap-3 '>
-                <aside className={`md:sticky top-0 h-screen w-[300px] ${showMenu ? 'block' : 'hidden'}`}>
+                <aside className={`md:sticky top-0 md:h-screen w-[300px] ${showMenu ? 'block' : 'hidden'}`}>
                     <Sidebar />
                 </aside>
                 <div className='md:col-span-3 border'>
