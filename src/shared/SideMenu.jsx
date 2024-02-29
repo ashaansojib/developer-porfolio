@@ -8,8 +8,8 @@ const SideMenu = () => {
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/"><FaHouse /> Home</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/projects"><FaLaptop /> Projects</NavLink>
             <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/resume"><FaBookBookmark /> Resume</NavLink>
-            <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaComment /> about me</NavLink>
-            <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/portfolio"><FaTelegram /> contact me</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/about"><FaComment /> about me</NavLink>
+            <NavLink className={({ isActive }) => isActive ? 'active' : 'default'} to="/contact"><FaTelegram /> contact me</NavLink>
         </div>
     );
 };
