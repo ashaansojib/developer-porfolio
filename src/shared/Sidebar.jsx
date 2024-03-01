@@ -9,7 +9,7 @@ const Sidebar = () => {
                 <h2 className='font-semibold pb-2 md:block hidden'>Ashaduzzaman Sojib</h2>
                 <div className="avatar">
                     <div className="md:w-44 w-36 rounded-full">
-                        <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                        <img src="https://ashaduzzaman-sojib.netlify.app/mypp-modified.png" />
                     </div>
                 </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, saepe accusantium veniam tempora debitis ea dolores cumque iure</p>

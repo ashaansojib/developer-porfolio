@@ -3,42 +3,53 @@
 @tailwind utilities;
 
 body {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .my-container {
-    @apply max-w-screen-xl mx-auto
+  @apply max-w-screen-xl mx-auto;
 }
-
+.pBg {
+  @apply bg-green-500 text-white
+}
+.pText{
+    @apply text-green-500
+}
+.gradientBg{
+    @apply bg-gradient-to-tl from-[#2087db] to-[#3f25d1] text-white 
+}
+.secondGradientBg{
+    @apply bg-gradient-to-tl from-[#9020db] to-[#257bd1] text-white
+}
 .active {
-    @apply font-bold text-green-500 flex items-center gap-2
+  @apply font-bold text-green-500 flex items-center gap-2;
 }
 
 .default {
-    @apply font-bold flex items-center gap-2 text-gray-600
+  @apply font-bold flex items-center gap-2 text-gray-600;
 }
 
 .icon-link {
-    @apply text-white text-3xl p-1 rounded-md
+  @apply text-white text-3xl p-1 rounded-md;
 }
 
 .download-btn {
-    @apply flex gap-2 justify-center items-center px-4 py-2 bg-gradient-to-tr to-[#0d1b41] from-[#426cdf] font-semibold text-white
+  @apply flex gap-2 justify-center items-center px-4 py-2 bg-gradient-to-tr to-[#0d1b41] from-[#426cdf] font-semibold text-white;
 }
 /* sidebar sticky */
 .sticky-sidebar {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 .sticky-sidebar.sticky-bottom {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
-.pro-card{
-    @apply hover:rotate-1 transition-all delay-75 bg-gradient-to-r to-[#084d92] from-[#a37edd] text-white p-3 flex gap-4 rounded-lg
+.pro-card {
+  @apply hover:rotate-1 transition-all delay-75 bg-gradient-to-r to-[#084d92] from-[#a37edd] text-white p-3 flex gap-4 rounded-lg;
 }
