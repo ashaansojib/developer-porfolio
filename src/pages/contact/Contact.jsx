@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaLocationArrow, FaPhone, FaPhoneVolume, FaRegEnvelope } from 'react-icons/fa6';
+import { FaEnvelope, FaLocationArrow, FaPhone, FaPhoneVolume } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
 const Contact = () => {
