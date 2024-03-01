@@ -42,7 +42,7 @@ const Home = () => {
         </div>
         <div className="avatar md:justify-end justify-center">
           <div className="rounded-md h-60">
-            <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            <img src="/bb.png" />
           </div>
         </div>
       </div>
