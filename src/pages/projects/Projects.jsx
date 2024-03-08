@@ -11,7 +11,7 @@ const Projects = () => {
     return (
         <>
             <h2 className='px-2 border-l-2 border-teal-600 ms-1 mt-2 text-xl font-semibold'>Showcase</h2>
-            <p className='px-4'>Lorem Eligendi eveniet in magnam, assumenda deleniti illo exercitationem enim est facere. Sequi corporis quisquam fugiat? Cumque rerum ut fuga natus quis molestias?</p>
+            <p className='px-4'>Here is some of my demo projects that i created for showcase. All these project I create to explore the all tools and framework and show my professional knowledge. I mentioned the code link with live website link if you have free time then review them.</p>
             <div className='grid md:grid-cols-2 grid-cols-1 justify-between gap-4 items-center p-4'>
                 {
                     projectDb?.map(project => <Project key={project._id} pro={project} />)

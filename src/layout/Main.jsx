@@ -4,7 +4,7 @@ import Sidebar from '../shared/Sidebar';
 import { FaBars, FaX } from 'react-icons/fa6';
 
 const Main = () => {
-    const [showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(true);
     return (
         <div className='my-container md:my-2'>
             <div className='absolute top-2 right-0 p-2 block md:hidden'>

@@ -16,18 +16,14 @@ const Home = () => {
           <p className="font-semibold text-gray-600">
             Jr. MERN Stack Developer
           </p>
-          <p className="text-gray-700 py-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore
-            nostrum cupiditate quia officiis aut id. Nostrum quas minima,
-            corrupti ea eligendi praesentium officia, optio dolores quam{" "}
-            <Link>
-              <span className="text-green-600 hover:underline">
-                online project
-              </span>
+          <p className="text-gray-700">
+            Basically, coding constantly is as enjoyable to me as playing games. From this interest i'm in the website development sector. I have been working on website development since many days. I have been working as a professional MERN Stack developer for the last 1 year. Here one of my best{" "}
+            <Link className="text-green-600 hover:underline">
+              online project
             </Link>{" "}
-            quis nesciunt sit.
+            also i have many project in that page.
           </p>
-          <div className="flex gap-3">
+          <div className="flex gap-3 py-4">
             <Link to="https://drive.google.com/file/d/1MzvdU8CEHrbziY-s29JUOt1V3SfgplAK/view" target="_blank">
               <button className="rounded-md flex items-center gap-2 px-3 py-2 bg-green-500 text-white font-semibold uppercase">
                 <FaEye className="animate-bounce" /> Get Resume
@@ -50,10 +46,7 @@ const Home = () => {
         <FaCheckDouble className="text-green-500" /> What I do...
       </h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
-        assumenda, aliquam perferendis corporis odio voluptate obcaecati
-        inventore, molestiae consequatur iste quidem omnis! Tempora perspiciatis
-        unde minus est, laudantium in sint?
+        I have enough experience as a MERN stack developer. I can confidently work with ReactJS, NodeJS, ExpressJS, MongoDB. Also i can work with the most common and popular Library and FrameWork. I have digital marketing knowledge and i can use all tools that need for a professional web development. Below mentioned all the tools, library and framework. 
       </p>
       <h4 className="font-semibold py-2 flex items-center gap-2">
         <FaGear className="animate-spin" /> Experties In..

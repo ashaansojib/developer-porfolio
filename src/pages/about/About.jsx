@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className=''>
             <h2 className='flex items-center gap-3 px-2 border-l-2 border-teal-600 ms-1 mt-2 text-xl font-semibold'>About Me <FaUserGear className='animate-bounce pText'/></h2>
-            <p className='px-4'>Lorem Eligendi eveniet in magnam, assumenda deleniti illo exercitationem enim est facere. Sequi corporis quisquam fugiat? Cumque rerum ut fuga natus quis molestias?</p>
+            <p className='px-4'>Actually, I am a regular student of National University studying Honors 3rd year at the department of English. Outside of my education i gained the knowledge about programming and gather computer knowledge from my interest.</p>
             <div className='m-4 grid md:grid-cols-2 grid-cols-1 gap-6 justify-between'>
                 <div className='border p-4 md:space-y-2 text-gray-700'>
                     <h3 className='text-xl font-semibold'>Personal Information</h3>

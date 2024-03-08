@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaEnvelope, FaFacebookF, FaGithub, FaLinkedinIn, FaRegMoon } from 'react-icons/fa6'
+import { FaEnvelope, FaFacebookF, FaGithub, FaHeart, FaLinkedinIn, FaRegMoon } from 'react-icons/fa6'
 import SideMenu from './SideMenu';
 const Sidebar = () => {
     return (
@@ -12,7 +12,7 @@ const Sidebar = () => {
                         <img src="https://ashaduzzaman-sojib.netlify.app/mypp-modified.png" />
                     </div>
                 </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, saepe accusantium veniam tempora debitis ea dolores cumque iure</p>
+                <p>Welcome <FaHeart className='inline text-red-500' /> Dear Sir, I'm an enthutiastic and dedicated MERN Stack web developer also a learner.</p>
             </div>
             <div className='flex gap-3 justify-center items-center py-3 border-b'>
                 <Link to="/linkedin.com"><FaLinkedinIn className='icon-link bg-[#0077B5]' /></Link>

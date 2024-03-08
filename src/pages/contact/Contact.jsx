@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
             <h2 className='flex items-center gap-3 px-2 border-l-2 border-teal-600 ms-1 mt-2 text-xl font-semibold'>Contact Me <FaPhoneVolume className='animate-bounce' /></h2>
-            <p className='ps-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quidem adipisci quibusdam officia dolorum obcaecati quia. Odit aliquid fugit repellat nobis ut dolor! Eaque, iure voluptate ipsam consectetur laboriosam cumque?</p>
+            <p className='ps-4'>Here is some of my active contact Information. If you feel free to direct call me also you can send mail through Email. I also linked my social profile that you can visite them.</p>
             <div className='p-4 text-gray-700 grid md:grid-cols-2 grid-cols-1 gap-4 justify-between border m-4'>
                 <div>
                     <p className='flex items-center gap-2 font-semibold'><FaEnvelope className='text-2xl pText' /> My Email</p>
