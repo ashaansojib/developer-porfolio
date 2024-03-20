@@ -7,21 +7,27 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+
 .my-container {
   @apply max-w-screen-xl mx-auto;
 }
+
 .pBg {
   @apply bg-green-500 text-white
 }
-.pText{
-    @apply text-green-500
+
+.pText {
+  @apply text-green-500
 }
-.gradientBg{
-    @apply bg-gradient-to-tl from-[#2087db] to-[#3f25d1] text-white 
+
+.gradientBg {
+  @apply bg-gradient-to-tl from-[#2087db] to-[#3f25d1] text-white
 }
-.secondGradientBg{
-    @apply bg-gradient-to-tl from-[#9020db] to-[#257bd1] text-white
+
+.secondGradientBg {
+  @apply bg-gradient-to-tl from-[#9020db] to-[#257bd1] text-white
 }
+
 .active {
   @apply font-bold text-green-500 flex items-center gap-2;
 }
@@ -37,15 +43,29 @@ img {
 .download-btn {
   @apply flex gap-2 justify-center items-center px-4 py-2 bg-gradient-to-tr to-[#0d1b41] from-[#426cdf] font-semibold text-white;
 }
+
 /* sidebar sticky */
 .sticky-sidebar {
   position: sticky;
   top: 0;
 }
+
 .sticky-sidebar.sticky-bottom {
   position: absolute;
   bottom: 0;
 }
+
 .pro-card {
   @apply hover:rotate-1 transition-all delay-75 bg-gradient-to-r to-[#084d92] from-[#a37edd] text-white p-3 flex gap-4 rounded-lg;
+}
+
+/* dashboard css */
+.published-container {
+  @apply grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3 justify-between px-2 md:px-0 py-4
+}
+.input-css{
+  @apply input input-bordered w-full
+}
+.submit-btn{
+  @apply py-2 px-3 bg-blue-500 text-white font-semibold cursor-pointer
 }
