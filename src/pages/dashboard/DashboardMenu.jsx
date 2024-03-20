@@ -5,20 +5,20 @@ const DashboardMenu = () => {
   return (
     <nav className="flex gap-2 p-3 bg-slate-100">
       <NavLink
-        className={({ isActive }) => (isActive ? "active" : "default")}
+        className="default"
         to="/"
       >
         Home
       </NavLink>
       <NavLink
-        className={({ isActive }) => (isActive ? "active" : "default")}
+        className="default"
         to="/admin"
       >
         Dashboard
       </NavLink>
       <NavLink
-        className={({ isActive }) => (isActive ? "active" : "default")}
-        to="/manage-project"
+        className="default"
+        to="/admin/manage-projects"
       >
         Projects
       </NavLink>

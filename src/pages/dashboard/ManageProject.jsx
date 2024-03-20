@@ -1,6 +1,15 @@
 import React from "react";
+import {
+  useGetProjectsQuery,
+  useRemoveProjectMutation,
+} from "../../redux/features/ProjectApi";
 
 const ManageProject = () => {
+  const { data: projects, isLoading } = useGetProjectsQuery([]);
+  const [removePro] = useRemoveProjectMutation();
+  const handleRemove = (id) => {
+    removePro(id);
+  };
   return (
     <div>
       <div className="overflow-x-auto">
@@ -8,20 +17,31 @@ const ManageProject = () => {
           {/* head */}
           <thead>
             <tr>
-              <th></th>
+              <th>SL</th>
               <th>Name</th>
-              <th>Job</th>
-              <th>Favorite Color</th>
+              <th>Tags</th>
+              <th>Actions</th>
             </tr>
           </thead>
           <tbody>
-            {/* row 1 */}
-            <tr className="bg-base-200">
-              <th>1</th>
-              <td>Cy Ganderton</td>
-              <td>Quality Control Specialist</td>
-              <td>Blue</td>
-            </tr>
+            {isLoading
+              ? "Projects loading... Please Wait!!"
+              : projects?.data?.map((project, index) => (
+                  <tr key={project._id} className="bg-base-200">
+                    <th>{index + 1}</th>
+                    <td>{project.name}</td>
+                    <td>{project.category} - 23/04/23</td>
+                    <td>
+                      <button
+                        onClick={() => handleRemove(project._id)}
+                        className="btn btn-sm btn-secondary mr-2"
+                      >
+                        Delete
+                      </button>
+                      <button className="btn btn-sm btn-primary">Edit</button>
+                    </td>
+                  </tr>
+                ))}
           </tbody>
         </table>
       </div>
