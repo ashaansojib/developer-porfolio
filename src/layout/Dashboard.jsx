@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useGetProjectsQuery } from "../redux/features/ProjectApi";
+import DashboardMenu from "../pages/dashboard/DashboardMenu";
 
 const Dashboard = () => {
   const { data: projects, isLoading } = useGetProjectsQuery([]);
@@ -38,7 +39,7 @@ const Dashboard = () => {
   };
   return (
     <div className="max-w-screen-lg mx-auto">
-      this is dashboard
+      <DashboardMenu />
       {/* add a project form */}
       <div>
         <form onSubmit={handleSubmit(onSubmit)}>
