@@ -5,3 +5,4 @@
 * npm install @heroicons/react
 * npm install react-icons --save
 * npm install react-hook-form 
+* npm install @reduxjs/toolkit react-redux
