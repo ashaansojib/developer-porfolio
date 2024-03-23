@@ -1,22 +1,22 @@
 import React, { useState } from "react";
+import { ScaleLoader } from "react-spinners";
 import { useForm } from "react-hook-form";
 import { useAddProjectMutation } from "../../redux/features/ProjectApi";
 
 const PublishedPro = () => {
-  const [addPost] = useAddProjectMutation([]);
+  const [addPost, { data: returnPro, isLoading, isSuccess }] = useAddProjectMutation([]);
+
   const [selectedItem, setSelectedItem] = useState(["ReactJs"]);
-  const {
-    register,
-    handleSubmit,
-    reset,
-    formState: { errors },
-  } = useForm();
+
+  const { register, handleSubmit, reset, formState: { errors }, } = useForm();
+
   const handleSelectChange = (e) => {
     const { value } = e.target;
     setSelectedItem((prevSelectedItem) => [...prevSelectedItem, value]);
   };
-  const onSubmit = (data) => {
-    const { name, category, image, frontEnd, backEnd } = data;
+
+  const onSubmit = async (data) => {
+    const { name, category, frontEnd, backEnd, image } = data;
     const project = {
       name,
       category,
@@ -24,9 +24,14 @@ const PublishedPro = () => {
       links: { frontEnd, backEnd },
       tools: selectedItem,
     };
-    addPost(project);
-    reset();
+    try {
+      await addPost(project);
+      reset();
+    } catch (err) {
+      console.error(err);
+    }
   };
+  console.log(returnPro?.data);
   return (
     <div>
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -43,6 +48,7 @@ const PublishedPro = () => {
             type="text"
             placeholder="Category"
           />
+          {/* <input type="file" {...register("image", { required: true })} /> */}
           <input
             {...register("image", { required: true })}
             className="input-css"
@@ -81,7 +87,14 @@ const PublishedPro = () => {
             <option value="React Hook Form">React Hook Form</option>
           </select>
         </div>
-        <input type="submit" value="Published" className="submit-btn" />
+        {isLoading ? (
+          <div className="text-[#294d70]">
+            <ScaleLoader height={20} color="#294d70" />
+            <span>Creating</span>
+          </div>
+        ) : (
+          <input type="submit" value="Published" className="submit-btn" />
+        )}
       </form>
     </div>
   );

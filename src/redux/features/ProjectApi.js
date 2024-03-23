@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const projectApi = createApi({
   reducerPath: "projectApi",
@@ -24,7 +24,14 @@ export const projectApi = createApi({
         url: `/projects/${id}`,
         method: "DELETE",
       }),
-      invalidatesTags: ["projects"], 
+      invalidatesTags: ["projects"],
+    }),
+    uploadPhoto: builder.mutation({
+      query: (id, data) => ({
+        url: `/projects/${id}/photo`,
+        method: "PUT",
+        body: data,
+      }),
     }),
   }),
 });
@@ -33,4 +40,5 @@ export const {
   useGetProjectsQuery,
   useAddProjectMutation,
   useRemoveProjectMutation,
+  useUploadPhotoMutation,
 } = projectApi;
